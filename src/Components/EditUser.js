@@ -7,7 +7,7 @@ const EditUser=({user, setUser})=>{
     const [name, setName] = useState("");
     const [idx, setIdx] = useState("");
     const [email, setEmail] = useState("");
-    const [experience, setExperience] = useState();
+    const [experience, setExperience] = useState("");
     const [Position, setPosition]= useState("");
     const [salary, setSalary]=useState("");
 
