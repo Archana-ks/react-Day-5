@@ -1,38 +1,85 @@
 .App {
   text-align: center;
+  opacity: 1;
+  background-color: bisque;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+padding : 12px;
+font-size : 25px;
+font-weight: bolder;
+font-style: normal;
+font-family :sans-serif;
+background-color: pink;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-styles{
+  padding : 12px;
+  width : 100%;
+  background-color:lightcyan;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap :0.5rem;
+}
+.nav-buttons{
+  border: none;
+  color:blue;
+  padding : 12px;
+  border-radius : 5px;
+  background-color: burlywood;
+}
+.nav-buttons:hover{
+  background-color: black;
+  border: none;
+}
+.view-btn:hover{
+ background-color: greenyellow;
+ color : black;
+}
+
+footer{
+  padding: 15px;
+  font-size: larger;
+  font-weight: bolder;
+  width : 100%;
+  background-color: lightgray;
+}
+.user-content{
+margin : 18px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 1rem;
+
+}
+.user-card{
+  background-color:lightgreen;
+  border-radius : 5px;
+  width : 250px;
+  height : 300px;
+}
+.btn{
+  padding: 10px;
+  margin : 5px;
+  border : none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size : 12px;
+  background-color:lightslategray;
+}
+.edit-btn:hover{
+  background-color: blue;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.del-btn:hover{
+  background-color: crimson;
+  color : white;
+ }
+ 
+ .childred{
+  height : 100vh;
+  margin : 1vh;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
